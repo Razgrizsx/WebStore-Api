@@ -95,3 +95,5 @@ app.post("/checkout", async (req, res, next) => {
 
 
 app.listen(3000, () => console.log("Listening on Port 3000"))
+
+export default app
